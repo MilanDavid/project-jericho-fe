@@ -1,0 +1,50 @@
+.graphic-language-container {
+
+    .graphic-pattern-basket {
+        min-height: 170px;
+        background: $body-bg;
+        position: relative;
+        color: $body-color;
+    }
+
+    .graphic-pattern-bask-note {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .photo-examples {
+
+        white-space: nowrap;
+
+        .photo-examples-item {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 30px;
+            margin-bottom: 30px;
+
+
+            img {
+                max-height: 300px;
+            }
+        }
+    }
+
+    .graphic-language-crops {
+
+        .crop-image {
+            height: 350px;
+        }
+    }
+
+    .graphic-language-custom-patterns {
+        .divider {
+            position: absolute;
+            right: -10.5%;
+            bottom: 0;
+            width: 1px;
+            height: 535px;
+            background-color: $color-dark;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.photography-container {
+
+    .list p {
+        margin-bottom: 0.5rem;  
+    }
+
+    .photography-best-practice-list {
+
+        li {
+            list-style: none;
+            padding: 10px 0;
+            font-weight: 300;
+
+            &:before {
+                content: '';
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background: url('../../images/ra/negative_list.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                margin-right: 20px;
+                transform: translateY(2px);
+            }
+        }
+    }
+}

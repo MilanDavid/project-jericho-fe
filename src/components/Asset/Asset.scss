@@ -1,0 +1,26 @@
+
+
+.asset-basket-btn {
+    width: 100%;
+    background: $color-highlight;
+    color: $body-color;
+    font-weight: 300;
+    border: none;
+    display: block;
+    padding: 4px 20px;
+    outline: none;
+    cursor: pointer;
+    p {
+        margin-bottom: 0;
+    }
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+}
+
+
+.asset-basket-btn-add {
+    margin-right: 5px;
+    display: block;
+}

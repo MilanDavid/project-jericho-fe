@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Cross box</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Photography" transform="translate(-732.000000, -4213.000000)">
+            <g id="Page"></g>
+            <g id="Best-Practice" transform="translate(132.000000, 3934.000000)">
+                <g id="Primary-Palette-Text">
+                    <g id="Group-2" transform="translate(2.602105, 13.000000)">
+                        <g id="Cross-box" transform="translate(598.000000, 266.000000)">
+                            <g id="Group-4">
+                                <path d="M0,21 L21,21 L21,0 L0,0 L0,21 Z M1.31442974,19.6854322 L19.6855703,19.6854322 L19.6855703,1.31236215 L1.31442974,1.31236215 L1.31442974,19.6854322 Z" id="Fill-1" fill="#FFFFFF"></path>
+                                <polygon id="Fill-2" fill="#DD052B" points="16.3324185 17.25 3.75 4.66961259 4.665402 3.75 17.25 16.3303874"></polygon>
+                                <polygon id="Fill-3" fill="#DD052B" points="4.66758153 17.25 3.75 16.3303874 16.334598 3.75 17.25 4.66961259"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Page"></g>
+    </g>
+</svg>

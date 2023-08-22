@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="498" height="620" viewBox="0 0 498 620">
+    <defs>
+        <path id="a" d="M.775.427H6.48V556H.775z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#041E42" font-family="Radikal-Light, Radikal" font-size="14" font-weight="300" letter-spacing=".027" transform="translate(1 -1)">
+            <tspan x="417" y="14">Grid Margin</tspan> <tspan x="417" y="31">To be set </tspan> <tspan x="417" y="48">equally </tspan> <tspan x="417" y="65">around page </tspan> <tspan x="417" y="82">at 6% of the </tspan> <tspan x="417" y="99">shortest side</tspan>
+        </text>
+        <text fill="#041E42" font-family="Radikal-Light, Radikal" font-size="14" font-weight="300" letter-spacing=".027" transform="translate(1 -1)">
+            <tspan x="316" y="600">Gutter</tspan> <tspan x="316" y="617">30% of margin</tspan>
+        </text>
+        <text fill="#041E42" font-family="Radikal-Light, Radikal" font-size="14" font-weight="300" letter-spacing=".027" transform="translate(1 -1)">
+            <tspan x="417" y="204">2/3</tspan>
+        </text>
+        <text fill="#041E42" font-family="Radikal-Light, Radikal" font-size="14" font-weight="300" letter-spacing=".027" transform="translate(1 -1)">
+            <tspan x="417" y="285">1/2</tspan>
+        </text>
+        <text fill="#041E42" font-family="Radikal-Light, Radikal" font-size="14" font-weight="300" letter-spacing=".027" transform="translate(1 -1)">
+            <tspan x="417" y="368">1/3</tspan>
+        </text>
+        <path fill="#D8D8D8" d="M1 561h397V1H1z"/>
+        <path stroke="#8B8B8B" stroke-width=".192" d="M1 561h397V1H1z"/>
+        <path fill="#FFF" d="M24 539h352V24H24z"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M24 539h352V24H24z"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M24 539h352v-43H24zM24 324h352v-43H24zM24 495h352v-43H24zM24 281h352v-43H24zM24 452h352v-43H24zM24 238h352v-43H24z"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M24 410h352v-43H24zM24 195h352v-43H24zM24 109h352V66H24zM24 367h352v-43H24zM24 152h352v-43H24z"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M24 67h352V24H24z"/>
+        <path fill="#FFF" d="M47 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-dasharray="9.234999999999999,9.234999999999999" stroke-width=".192" d="M47.5 36v494M53.5 526V32"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M47 534.977V539h6v-4.023m0-506.953V24h-6v4.024"/>
+        <path fill="#FFF" d="M107 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-dasharray="9.234999999999999,9.234999999999999" stroke-width=".192" d="M107.5 36v494M112.5 526V32"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M107 534.977V539h6v-4.023m0-506.953V24h-6v4.024"/>
+        <path fill="#FFF" d="M167 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-dasharray="9.234999999999999,9.234999999999999" stroke-width=".192" d="M166.5 36v494M172.5 526V32"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M167 534.977V539h6v-4.023m0-506.953V24h-6v4.024"/>
+        <path fill="#FFF" d="M226 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-dasharray="9.234999999999999,9.234999999999999" stroke-width=".192" d="M226.5 36v494M232.5 526V32"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M226 534.977V539h6v-4.023m0-506.953V24h-6v4.024"/>
+        <path fill="#FFF" d="M286 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-dasharray="9.234999999999999,9.234999999999999" stroke-width=".192" d="M286.5 36v494M291.5 526V32"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M286 534.977V539h6v-4.023m0-506.953V24h-6v4.024"/>
+        <path fill="#FFF" d="M78 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M78 539h6V24h-6z"/>
+        <path fill="#FFF" d="M137 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M137 539h6V24h-6z"/>
+        <path fill="#FFF" d="M197 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M197 539h6V24h-6z"/>
+        <path fill="#FFF" d="M256 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M256 539h6V24h-6z"/>
+        <g transform="translate(315 24)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path stroke="#B1B1B1" stroke-width=".192" d="M6.48 556V.427H.774V556" mask="url(#b)"/>
+        </g>
+        <path fill="#FFF" d="M346 539h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-dasharray="9.234999999999999,9.234999999999999" stroke-width=".192" d="M346.5 36v494M351.5 526V32"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M346 534.977V539h6v-4.023m0-506.953V24h-6v4.024"/>
+        <path fill="#FFF" d="M346 538h6V24h-6z"/>
+        <path stroke="#B1B1B1" stroke-dasharray="9.218,9.218" stroke-width=".192" d="M346.5 35v494M351.5 525V31"/>
+        <path stroke="#B1B1B1" stroke-width=".192" d="M346 533.985V538h6v-4.015m0-505.97V24h-6v4.015"/>
+    </g>
+</svg>

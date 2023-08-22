@@ -1,0 +1,15 @@
+.grid-container {
+
+  .layout-examples {
+
+    white-space: nowrap;
+
+    .layout-examples-item {
+        display: inline-block;
+        width: 500px;
+        height: 700px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+  }
+}

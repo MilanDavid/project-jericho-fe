@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: 'radikal';
+    font-weight: 200;
+    src:  url('./fonts/radikal-thin.eot');
+    src:  url('./fonts/radikal-thin.eot?#iefix') format('embedded-opentype'),
+          url('./fonts/radikal-thin.woff2') format('woff2'),
+          url('./fonts/radikal-thin.woff') format('woff'),
+          url('./fonts/radikal-thin.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'radikal';
+    font-weight: 300;
+    src:  url('./fonts/radikal-light.eot');
+    src:  url('./fonts/radikal-light.eot?#iefix') format('embedded-opentype'),
+          url('./fonts/radikal-light.woff2') format('woff2'),
+          url('./fonts/radikal-light.woff') format('woff'),
+          url('./fonts/radikal-light.ttf') format('truetype');
+
+}
+
+
+@font-face {
+    font-family: 'radikal';
+    font-weight: normal;
+    src:  url('./fonts/radikal-regular.eot');
+    src:  url('./fonts/radikal-regular.eot?#iefix') format('embedded-opentype'),
+          url('./fonts/radikal-regular.woff2') format('woff2'),
+          url('./fonts/radikal-regular.woff') format('woff'),
+          url('./fonts/radikal-regular.ttf') format('truetype');
+
+}
+
+
+@font-face {
+    font-family: 'radikal';
+    font-weight: bold;
+    src:  url('./fonts/radikal-bold.eot');
+    src:  url('./fonts/radikal-bold.eot?#iefix') format('embedded-opentype'),
+          url('./fonts/radikal-bold.woff2') format('woff2'),
+          url('./fonts/radikal-bold.woff') format('woff'),
+          url('./fonts/radikal-bold.ttf') format('truetype');
+
+}

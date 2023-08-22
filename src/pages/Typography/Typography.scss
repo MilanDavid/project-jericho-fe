@@ -1,0 +1,47 @@
+.typography-container {
+
+    .typography-intro {
+
+        .big-heading {
+            font-size: 7rem;
+        }
+
+        @include media-breakpoint-down(lg) {
+            .big-heading {
+                font-size: 4.2rem;
+            }
+        }
+    }
+
+    .font-download-preview {
+        font-size: 80px;
+        line-height: 110px;
+
+        p {
+            margin: 0;
+
+            &.thin {
+                font-weight: 200;
+            }
+
+            &.light {
+                font-weight: 300;
+            }
+
+            &.regular {
+                font-weight: normal;
+            }
+
+            &.medium {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .typography-styling-carousel {
+        .slider-list {
+            margin-bottom: 45px !important;
+        }
+    }
+
+}

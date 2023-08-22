@@ -1,0 +1,72 @@
+ALL PAGES
+? - Make the leading H1s the same position as welcome
+X - The H1 on pages Typography, Grid Systems, Best Practices pages should animate in
+X - Transitions to be slowed down
+X - and fade in
+X - Hover dark blue
+
+HEADER
+X - Match the icons on both sites
+X - Remove underline hover state
+X - Fix the nav bar to the top of the page so it follows you when scrolling
+X - Make header consistent over both sites
+
+
+FOOTER
+X - Wrong colour - Match supplied assets
+X - Match social media icons from supplied assets
+X - Reduce R&A logo size
+
+
+INTRODUCTION
+X - Vision - Widen body text margin on right hand side
+X - Our Values - Make this section taller so it fills the screen (16:9 ratio)
+
+
+THE BRANDMARK
+X - Input updated exclusion zone animation (TR to supply tomorrow morning)
+X - Ampersands - Typo on Carousel, Increase carousel padding
+
+
+COLOUR
+X - Input updated colour animation (TR to supply tomorrow morning)
+X - Using Colour - Input updated Carousel assets
+X - Brandmark - Input updated brand mark animation (TR to supply tomorrow morning)
+X - Tertiary Palette - Input updated palette animation (TR to supply tomorrow morning)
+
+
+PHOTOGRAPHY
+X - What to Shoot - Buttons missing from this section. See PDF: https://we.tl/t-AqauBxhXKN
+X - Add some more padding between the carousel pips and the bottom of the image
+NO - Is it possible for images to enlarge when clicked?
+X - Photography: Golf - White line under image, make gaps between images consistent
+X - Photography: Sustainability - Make gaps between images consistent
+X - Photography: Equipment - Make gaps between images consistent
+X - Photography: Corporate - Make gaps between images consistent
+X - Tone - Make image slider rather than carousel
+
+TYPOGRAPHY
+X - Input updated typography animation (TR to supply tomorrow morning)
+X - Type Sizes - Increase padding on carousel, make padding consistent - 40px
+X - Letter Spacing - Change order of carousel images
+X - Letter Spacing - Increase subhead column width
+X - Example Type - Increase padding on carousel, make padding consistent
+X - Styling - Input updated SVG to replace animation (CG to supply tomorrow morning)
+
+
+GRID SYSTEM
+X - Input updated Grid System animation (TR to supply tomorrow morning)
+X - Layout Example - Increase padding between and subhead mt-5 pt-5
+X - make scroll bar thinner 50%
+
+
+GRAPHIC LANGUAGE
+X - Usage - Filter examples look low res
+X - Crops - Filter examples look low res
+X - Use with photography - Filter examples look low res
+X - Working into photography - White line on left of images
+X - Custom pattern - Increase padding between and subhead
+
+
+BEST PRACTICES
+X - Editorial Rules - Input content

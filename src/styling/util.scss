@@ -1,0 +1,41 @@
+/**
+ * Utility classes
+ */
+
+@for $i from 1 through 150 {
+
+    .font-size-#{$i} {
+        font-size: #{$i}px;
+        line-height: 1.3;
+    }
+}
+
+@keyframes fadeInUpDam {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 50%, 0);
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    75% {
+        opacity: 0.2;
+    }
+
+    90% {
+        opacity: 0.3;
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+}
+
+.fadeInUpDam {
+    animation-name: fadeInUpDam;
+    animation-timing-function: ease-out;
+}

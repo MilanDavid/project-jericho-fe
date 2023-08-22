@@ -1,0 +1,11 @@
+.asset-display {
+
+    position: relative;
+
+    .asset-display-key {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: $color-highlight;
+    }
+}

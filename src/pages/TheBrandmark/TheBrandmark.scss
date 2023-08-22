@@ -1,0 +1,167 @@
+
+.brandmark-container {
+
+    .brandmark-hero-logo {
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /**
+     * Basket Assets
+     */
+
+    .brandmark-asset-basket-container {
+        margin-bottom: 20px;
+    }
+
+    .brandmark-asset-basket {
+        min-height: 300px;
+        background: $body-bg;
+        position: relative;
+        color: $body-color;
+        &--dark {
+            background: $body-color;
+            color: $body-bg;
+        }
+
+        &--black {
+            background: #000;
+            color: $body-bg;
+        }
+    }
+
+    .brandmark-asset-bask-note {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .brandmark-light-btn {
+        //margin-right: 10px;
+        //margin-bottom: 10px;
+        font-weight: 300;
+        width: 150px;
+        &--active {
+            background: $body-bg;
+            color: $body-color;
+        }
+    }
+
+    /**
+     * Lock-Ups
+     */
+
+    .brandmark-lockup-carousel {
+        background: #fff;
+        width: 100%;
+        padding-bottom: 50px;
+        margin-top: 30px;
+
+        .brandmark-lockup-carousel-item {
+            padding: 20px;
+            font-size: 12px;
+            text-align: center;
+            height: 160px;
+            .asset-display {
+                padding-top: 10px;
+            }
+        }
+    }
+
+    /**
+     * Position
+     */
+
+    .position-btn-container {
+        max-width: 350px;
+    }
+
+    /**
+     * Ampersand
+     */
+
+    .ampersand-slide {
+        background: #fff;
+        min-height: 450px;
+    }
+
+    .ampersand-slide-title {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+
+        h4 {
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+    }
+
+    .ampersand-slide-img {
+        width: 60%;
+    }
+
+    /**
+     * Media Queries
+     */
+
+    /* Mobile Only */
+    @include media-breakpoint-down(xs) {
+
+        .brandpillars-examples {
+            order: 2;
+        }
+
+        .brandpillars-content {
+            order: 1;
+            margin-bottom: 20px;
+        }
+    }
+
+    /* After Mobile and up */
+    @include media-breakpoint-up(sm) {
+
+        .brandmark-hero-logo {
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+
+        .ampersand-gallery-container {
+            position: absolute;
+            right: 0;
+            top: 120px;
+            width: 50% !important;
+            overflow: hidden;
+        }
+
+        .ampersand-gallery-wrapper {
+            max-width: calc(1140px / 2);
+            margin-left: -15px;
+        }
+
+        .ampersand-gallery {
+
+            .slider-control-centerleft {
+                left: 15px !important;
+            }
+
+            .slider-control-centerright {
+                right: 15px !important;
+            }
+
+        }
+
+        .ampersand-slide-container {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .ampersand-slide {
+            min-height: 630px;
+        }
+
+    }
+
+}

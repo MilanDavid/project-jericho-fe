@@ -1,0 +1,97 @@
+.slider {
+
+    .slider-frame {
+        margin-bottom: -1px !important;
+    }
+
+    .slider-slide {
+        outline: none !important;
+    }
+
+    .carousel-btn {
+        background: transparent;
+        border: none;
+        padding: 0;
+        outline: none;
+        cursor: pointer;
+        &:focus {
+            outline: none;
+        }
+        &--next {
+            margin-right: 20px;
+        }
+
+        &--prev {
+            margin-left: 20px;
+            transform: rotate(180deg);
+        }
+    }
+
+    .carousel-bullet {
+        width: 14px;
+        height: 14px;
+        border: 1px solid $primary;
+        background: transparent;
+        border-radius: 100%;
+        display: inline-block;
+        padding: 0;
+        margin: 5px;
+        margin-bottom: 20px;
+
+        outline: none;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+            outline: none;
+        }
+
+        &--active {
+            background: $primary;
+        }
+
+        &--light {
+            border-color: $color-light;
+            &.carousel-bullet--active {
+                background: $color-light;
+            }
+        }
+
+    }
+
+    /**
+     * Media Queries
+     */
+
+    /* After Mobile and up */
+    @include media-breakpoint-up(sm) {
+
+        &.large-carousel {
+            .carousel-bullet {
+                margin-bottom: 50px;
+            }
+        }
+
+        &.carousel-surounding {
+            // width: 200% !important;
+            .slider-frame {
+                overflow: visible !important;
+            }
+
+            .slider-slide {
+                opacity: .4;
+                transition: opacity .4s;
+            }
+
+            .slide-visible {
+                opacity: 1;
+                display: block;
+            }
+
+            .slide-visible + .slider-slide {
+                opacity: .4;
+                display: block;
+            }
+        }
+    }
+}

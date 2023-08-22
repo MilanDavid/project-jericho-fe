@@ -1,0 +1,23 @@
+.scroll-box {
+
+    .scroll-box-content {
+        margin-bottom: 10px;
+    }
+
+    .scroll-box-track {
+
+        background-color: $color-grey;
+
+        .grey-section & {
+            background-color: white;
+        }
+
+        border-radius: 23px;
+
+        .thumb-horizontal {
+            background-color: $color-dark;
+            border-radius: 23px;
+            cursor: pointer;
+        }
+    }
+}

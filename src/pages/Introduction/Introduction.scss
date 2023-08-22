@@ -1,0 +1,136 @@
+.introduction-container {
+
+    .purpose {
+        min-height: 600px;
+        background-image: url("../../images/ra/introduction_purpose.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    /**
+     * Divided Sections
+     */
+
+    .introduction-divided-content {
+        //        padding: 35px 0px;
+        max-width: 420px;
+    }
+
+    .vision-illustration {
+        background-image: url("../../images/ra/vision_illustration.svg");
+        background-size: 90%;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        min-height: 400px;
+    }
+
+    .operate-illustration {
+        background-image: url("../../images/ra/operate_illustration.svg");
+        background-size: cover;
+        min-height: 350px;
+    }
+
+    /**
+     * Slides
+     */
+
+    .introduction-values {
+
+        .slider {
+            height: 100%;
+
+            .introduction-slide {
+
+                .center-vertical {
+                    position: absolute;
+                    top: 50%;
+                    width: 100%;
+
+                    @include media-breakpoint-up(lg) {
+                        margin-top: -100px;
+                    }
+                }
+
+                .introduction-slide-img {
+                    height: 100px;
+                    max-width: 90%;
+                }
+
+                .introduction-slide-text {
+                    margin-bottom: 0;
+                    max-width: 480px;
+                }
+            }
+        }
+    }
+
+    /**
+     * Media Queries
+     */
+
+    /* Mobile Only */
+    @include media-breakpoint-down(xs) {
+
+        .how-we-operate {
+            .row {
+                display: flex;
+                flex-direction: column;
+            }
+            .col-sm-6 {
+                order: 2;
+            }
+
+            .dark-section {
+                order: 1;
+            }
+        }
+
+    }
+
+    /* After Mobile and up */
+    @include media-breakpoint-up(sm) {
+
+        .guidelines {
+            .sub-heading {
+                padding-top: 0;
+            }
+        }
+
+        .purpose {
+            min-height: 720px;
+        }
+
+        /* Divided */
+
+        .introduction-divided {
+            width: 100%;
+            position: relative;
+
+            .col-sm-6 {
+                min-height: 500px;
+            }
+        }
+
+        .vision-illustration {
+            position: absolute;
+            left: 0;
+            height: 100%;
+        }
+
+        .operate-illustration {
+            min-height: 400px; /* Make same height as the one above */
+            position: absolute;
+            right: 0;
+            height: 100%;
+        }
+    }
+
+    /* Big Desktop and up */
+    @include media-breakpoint-up(lg) {
+        .introduction-divided {
+            .col-sm-6 {
+                min-height: 720px;
+            }
+        }
+    }
+}

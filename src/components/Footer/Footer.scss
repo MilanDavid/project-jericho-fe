@@ -1,0 +1,45 @@
+
+.footer {
+
+    background-color: $color-footer-grey;
+    color: #FFFFFF;
+
+    .footer-disclaimers {
+        font-size: 0.8rem;
+    }
+
+    ul.footer-socials {
+
+        li.list-inline-item {
+
+            &:not(:last-child) {
+                margin-right: 1.2rem;
+            }
+
+            .footer-social-icon {
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+
+                &.youtube {
+                    background-image: url('../../images/youtube.svg');
+                }
+
+                &.twitter {
+                    background-image: url('../../images/twitter.svg');
+                }
+
+                &.facebook {
+                    background-image: url('../../images/facebook.svg');
+                }
+
+                &.instagram {
+                    background-image: url('../../images/instagram.svg');
+                }
+            }
+        }
+    }
+}

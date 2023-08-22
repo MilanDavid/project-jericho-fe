@@ -1,0 +1,92 @@
+.best-practices-container {
+
+    ul {
+        outline: none !important;
+    }
+
+    li {
+        outline: none !important;
+    }
+
+    .best-practices-list-item-title {
+        background: $color-dark;
+        color: $color-light;
+        border-bottom: 1px solid $color-highlight;
+        margin-bottom: 0;
+        font-size: 15px;
+        padding: 11px 20px;
+        cursor: pointer;
+        svg {
+            width: 22px;
+        }
+    }
+
+    .best-practices-list-content {
+        background: $color-grey;
+        padding: 25px 30px;
+        font-size: 14px;
+        display: none;
+    }
+
+    .best-practices-item--active {
+        p {
+            margin-bottom: 10px;
+        }
+
+        .best-practices-list-content {
+            display: block;
+        }
+
+        .best-practices-list-item-icon {
+            transform: scale(-1);
+        }
+    }
+
+    .best-practices-list-content-item {
+        list-style: none;
+        position: relative;
+        padding-left: 15px;
+        &:before {
+            position: absolute;
+            left: 0;
+            top: 0px;
+            content: '-';
+        }
+    }
+
+
+    .best-practice-checklist-item {
+        list-style: none;
+        position: relative;
+        padding-left: 35px;
+        &:before {
+            content: '';
+            background: url('../../images/ra/tick.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 0;
+            top: 3px;
+        }
+    }
+
+
+    .best-practice-checklist-item-title {
+        margin-bottom: 3px;
+    }
+
+    .best-practice-checklist-item-content {
+        font-weight: 100;
+        opacity: .8;
+        font-size: 14px;
+    }
+
+    .best-practices-list-content-subitem {
+        padding-left: 20px;
+        .best-practices-list-content-item:before {
+            content: '·';
+        }
+    }
+}

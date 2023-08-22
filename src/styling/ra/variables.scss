@@ -1,0 +1,88 @@
+/**
+ * Colors
+ */
+
+$color-dark: #041E42;
+$color-light: #fff;
+$color-highlight: #14e8ff;
+$color-grey: #efefef;
+$color-dark-grey: #63758c;
+$color-footer-grey: #3f4a59;
+$color-orange: #FF5836;
+
+$body-bg: $color-light;
+$body-color: $color-dark;
+
+$primary: $color-dark;
+
+$container-max-widths: (
+        sm: 790px,
+        md: 800px,
+        lg: 960px,
+        xl: 1170px
+);
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+                (
+                        20: 20%,
+                        25: 25%,
+                        50: 50%,
+                        75: 75%,
+                        100: 100%,
+                        auto: auto
+                ),
+                $sizes
+);
+
+$paragraph-margin-bottom: 1.5rem !default;
+
+$border-radius: 0px;
+$border-width: 2px;
+
+$btn-padding-x: 1rem;
+
+/**
+ * Text
+ */
+$font-family-base: 'radikal', Arial, sans-serif;
+$font-size-base: 1rem;
+
+//Heading..
+$display1-size: 4.2rem !default; //~72px
+$display1-weight: normal !default;
+
+//Smaller heading..
+$display2-size: 2.8rem !default; //~48px
+$display2-weight: normal !default;
+
+//Sub heading
+$display3-size: 1.4rem !default;
+$display3-weight: normal !default;
+
+$display4-size: 3.5rem !default;
+$display4-weight: 300 !default;
+
+$react-notifications-font-base-path: "../styling/notifications";
+$react-notifications-success-background-color: $color-highlight;
+$react-notifications-error-background-color: $color-orange;
+$react-notifications-padding-left: 25px;
+$react-notifications-icon-font-size: 0;
+$react-notifications-title-font-size: 1.5rem;
+$react-notifications-color: $color-dark;
+
+$link-hover-decoration: none;
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/variables";

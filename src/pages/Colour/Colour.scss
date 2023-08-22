@@ -1,0 +1,179 @@
+.colour-container {
+    /**
+ * Intro
+ */
+    .colour-intro {
+        max-width: 700px;
+        margin: 0 auto;
+        width: 90%;
+        display: block;
+        padding: 40px 0;
+    }
+
+    /**
+     * Primary Palette
+     */
+
+    .primary-palette {
+        background-color: $color-light;
+        min-height: 400px;
+        padding: 20px;
+
+        &--blue {
+            background-color: $color-dark;
+            color: $color-light;
+        }
+    }
+
+    .primary-palette-title {
+        font-size: 30px;
+    }
+
+    .primary-palette-info {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    /**
+     * Secondary Palette
+     */
+
+    .secondary-palette-items {
+        padding-left: 15px;
+        padding-right: 15px;
+        color: $color-dark;
+    }
+
+    .secondary-palette-item {
+        min-height: 250px;
+        padding: 15px;
+
+        &--light-blue {
+            background: $color-highlight;
+        }
+
+        &--lilac {
+            background: #A593FF;
+        }
+
+        &--teal {
+            background: #39FFC4;
+        }
+
+        &--orange {
+            background: #FF5836;
+        }
+
+        &--yellow {
+            background: #E2FC00;
+        }
+    }
+
+    .secondary-palette-item-title {
+        font-weight: bold;
+        padding-bottom: 0px;
+    }
+
+    .secondary-palette-item-sub-title {
+        margin-bottom: 0;
+    }
+
+    .secondary-palette-item-content {
+        font-weight: 300;
+    }
+
+    /**
+     * Using
+     */
+
+    .colour-using-gallery {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .using-gallery-item {
+        width: 100%;
+        background: $color-dark;
+    }
+
+    .using-gallery-item-logo {
+        display: flex;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+        .asset-display {
+            max-width: 70%;
+            max-height: 80%;
+            width: 70%;
+        }
+    }
+
+
+
+    /**
+     * Tertiary
+     */
+
+    .colour-tertiary-list {
+        p {
+            margin-bottom: 0;
+            padding: 12px 20px;
+            &:first-child {
+                font-weight: normal;
+            }
+        }
+
+        &--dark {
+            color: $color-light;
+        }
+    }
+
+    /**
+     * Media Queries
+     */
+
+    /* After Mobile and up */
+    @include media-breakpoint-up(sm) {
+
+        .colour-intro {
+            padding: 70px 0;
+        }
+
+        .primary-palette {
+            padding: 50px;
+            min-height: 540px;
+        }
+
+        .primary-palette-info {
+            font-size: 1rem;
+        }
+
+        .secondary-palette-item {
+            min-height: 300px;
+            padding: 30px;
+        }
+
+        .using-gallery {
+
+            .slider-control-centerleft {
+                left: 15px !important;
+            }
+
+            .slider-control-centerright {
+                right: 15px !important;
+            }
+
+        }
+
+        .using-gallery-item-container {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .using-gallery-item-logo {
+            height: 450px;
+        }
+
+    }
+
+}
